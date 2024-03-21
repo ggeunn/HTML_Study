@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>남품자 정보</legend>
+        <label>1. 납품자명 : </label>
+        <input type="text"><br>
+        <br>
+        <label>2. email</label>
+        <input type="email" placeholder="answer@naver.com"><br>
+        <br>
+        <label>3. 홈페이지</label>
+        <input type="url" value="http://"><br>
+        <br>
+        <label>4. 지역</label>
+        <select>
+            <option value="부산">부산</option>
+            <option value="서울">서울</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>남품 정보</legend>
+        <ul>
+            <li>상품명 :
+                <input type="text"></li>
+            <br>
+            <li>납품수량 :
+                <input type="number" min="100" placeholder="최소 100"></li>
+            <br>
+            <li>납품등급 :
+                <input type="range"></li>
+            <br>
+            <li>기타사항 : <textarea cols="30" rows="8"></textarea> </li>
+
+        </ul>
+    </fieldset>
+    <br>
+    <button type="submit">send message</button>
+</body>
+
+</html>
